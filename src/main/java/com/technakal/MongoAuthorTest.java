@@ -10,12 +10,12 @@ import org.bson.types.ObjectId;
 
 import java.util.ArrayList;
 
-public class MongoTest {
+public class MongoAuthorTest {
 
     public static void main(String[] args) {
 
         // get our uri
-        String uri = "mongodb://dev_user:password@localhost:27017/admin";
+        String uri = "mongodb://dev_user:password@localhost:27017/jdnd-c3";
 
         // create our client
         MongoClient client = MongoClients.create(uri);
